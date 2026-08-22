@@ -32,7 +32,7 @@ export default function Home() {
       <section className="py-24 px-4 bg-cream-50">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-6">
-            Той күніне дейін
+            Until the wedding day
           </h2>
           <div className="w-20 h-px bg-sage-300 mx-auto" />
         </div>
@@ -47,14 +47,14 @@ export default function Home() {
       <footer className="bg-sage-800 py-16 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-cream-200 text-lg mb-4 font-serif">
-            Сіздерді тойымызда көруге асығамыз!
+            We await you at our wedding!
           </p>
           <p className="text-cream-50 font-display text-4xl md:text-5xl mb-8">
             {groomName} & {brideName}
           </p>
           <div className="w-16 h-px bg-sage-500 mx-auto mb-6" />
           <p className="text-sage-400 text-sm font-sans">
-            Махаббатпен жасалған • 2026
+            Made with love - 2026
           </p>
         </div>
       </footer>
