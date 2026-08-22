@@ -4,15 +4,15 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const lines = [
-  'Құрметті қонақтар,',
-  'сіздерді ұлымыз бен келініміз',
+
+  'Dear guests,',
+  'We sincerely invite you to join us in celebrating the joyous occasion of our ',
   '',
-  'Диас & Айдананың',
+  'Tejoraj & Sathvika',
   '',
   'Ақ отау тігіп, үлкен өмірге бірге',
-  'қадам басатын қуанышты сәтіне',
-  'және үйлену тойына арналған ақ дастарханымыздың',
-  'қадірлі қонағы болуға сіздер шын жүректен шақырамыз!',
+  'as they begin their journey together and take their first steps into married life',
+  'It would be our great honor to have you as our cherished guests at the wedding celebration!',
 ];
 
 function Word({

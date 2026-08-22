@@ -8,17 +8,10 @@ import Image from 'next/image';
 const schedule = [
   {
     time: '16:30',
-    title: 'Қонақтарды қарсы алу',
-    description: 'Барлық қонақтарды Dariya ресторанына шақырамыз.',
+    title: 'Guest Reception',
+    description: 'Reception after wedding',
     image: 'https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80',
     side: 'left',
-  },
-  {
-    time: '17:00',
-    title: 'Тойдың басталуы',
-    description: 'Уақытында келуіңізді сұраймыз. Көріскенше!',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80',
-    side: 'right',
   },
 ];
 
@@ -46,7 +39,7 @@ export default function WeddingDay() {
             Той күні
           </h2>
           <p className="text-sage-600 font-serif text-lg max-w-2xl mx-auto leading-relaxed">
-            6 наурыз күні не болатынын біліңіз. Барлық іс-шаралар Dariya ресторанында өтеді.
+            Find out events
           </p>
         </motion.div>
 
