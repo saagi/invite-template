@@ -55,10 +55,10 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
   }
 
   const timeUnits = [
-    { label: 'Күн', value: timeLeft.days },
-    { label: 'Сағат', value: timeLeft.hours },
-    { label: 'Минут', value: timeLeft.minutes },
-    { label: 'Секунд', value: timeLeft.seconds },
+    { label: 'Days', value: timeLeft.days },
+    { label: 'Hours', value: timeLeft.hours },
+    { label: 'Minutes', value: timeLeft.minutes },
+    { label: 'Seconds', value: timeLeft.seconds },
   ];
 
   return (

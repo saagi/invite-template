@@ -40,7 +40,7 @@ export default function Hero({ brideName, groomName, weddingDate, city, venue }:
             transition={{ delay: 0.5 }}
             className="text-sage-600 text-sm uppercase tracking-[0.3em] mb-8 font-sans font-medium"
           >
-            {'6 наурыз 2026'}
+            {'30 August 2026'}
           </motion.p>
 
           {/* Names */}
@@ -88,7 +88,7 @@ export default function Hero({ brideName, groomName, weddingDate, city, venue }:
               href="#countdown"
               className="inline-block bg-sage-800 hover:bg-sage-900 text-cream-50 px-10 py-4 rounded-full font-sans text-sm font-medium uppercase tracking-wider transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              Жоғары көтеріңіз
+              Scroll up
             </a>
           </motion.div>
 

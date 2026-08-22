@@ -33,11 +33,11 @@ export default function Gallery() {
           className="text-center mb-16"
         >
           <h2 className="font-script text-5xl md:text-6xl text-romantic-600 mb-4">
-            Галерея
+            Gallery
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-romantic-300 to-champagne-300 mx-auto mb-4" />
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Біздің тарихымызды баян ететін сәттер жинағы
+            A collection of moments that tell our story
           </p>
         </motion.div>
 

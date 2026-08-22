@@ -84,7 +84,7 @@ export default function RsvpForm() {
               Рахмет сізге!
             </h3>
             <p className="text-sage-600 font-serif leading-relaxed mb-6">
-              Сіздің жауабыңыз қабылданды. Сіздерді тойымызда көруге асығамыз!
+              Your response has been received. We await you at our wedding!
             </p>
             <motion.div
               initial={{ opacity: 0 }}
@@ -95,7 +95,7 @@ export default function RsvpForm() {
                 onClick={() => setSubmitted(false)}
                 className="text-sage-700 hover:text-sage-800 font-medium font-sans"
               >
-                Басқа жауап жіберу
+                Submit another response
               </button>
             </motion.div>
           </motion.div>
@@ -118,7 +118,7 @@ export default function RsvpForm() {
           </h2>
           <div className="w-20 h-px bg-sage-300 mx-auto mb-6" />
           <p className="text-sage-600 font-serif text-lg">
-            Қатысатыныңызды немесе қатыспайтыныңызды хабарлаңыз
+            Please let us know whenever you are coming
           </p>
         </motion.div>
 
@@ -144,7 +144,7 @@ export default function RsvpForm() {
             {/* Name */}
             <div>
               <label htmlFor="name" className="block text-sage-800 font-medium mb-2 font-sans">
-                Толық аты-жөніңіз *
+                Full name *
               </label>
               <input
                 type="text"
@@ -161,7 +161,7 @@ export default function RsvpForm() {
             {/* Attending */}
             <div>
               <label htmlFor="attending" className="block text-sage-800 font-medium mb-2 font-sans">
-                Қатысасыз ба? *
+                when *
               </label>
               <select
                 id="attending"
@@ -180,7 +180,7 @@ export default function RsvpForm() {
             {formData.attending === 'yes' && (
               <div>
                 <label htmlFor="guests" className="block text-sage-800 font-medium mb-2 font-sans">
-                  Қонақтар саны *
+                  guests *
                 </label>
                 <input
                   type="number"
@@ -207,7 +207,7 @@ export default function RsvpForm() {
               disabled={loading}
               className="w-full bg-sage-800 hover:bg-sage-900 disabled:bg-gray-400 text-cream-50 py-4 rounded-full font-medium font-sans uppercase tracking-wider transition-all duration-300 shadow-lg hover:shadow-xl disabled:hover:scale-100"
             >
-              {loading ? 'Жіберілуде...' : 'Жауапты жіберу'}
+              {loading ? 'Submitting..' : 'Submit Response'}
             </button>
           </form>
         </motion.div>

@@ -6,24 +6,9 @@ import { useRef } from 'react';
 
 const timeline = [
   {
-    year: '2018',
-    title: 'Алғашқы кездесу',
-    description: 'Достарымыздың жиналысында кездестік және бірден бір-бірімізге тартылдық.',
-  },
-  {
-    year: '2019',
-    title: 'Бірінші кездесу',
-    description: 'Қарапайым кофе ішу сағаттап әңгімеге айналды және бұл ерекше нәрсенің басы екенін түсіндік.',
-  },
-  {
-    year: '2022',
-    title: 'Ұсыныс',
-    description: 'Сүйікті жеріміздегі жұлдыздар астында сұрақ қойылды және қуаныш иә жауабы берілді!',
-  },
-  {
     year: '2026',
-    title: 'Мәңгілікке',
-    description: 'Махаббатымыз бен міндеттемемізді жақын туыстар мен достарымызбен тойлауға дайынбыз.',
+    title: 'First Meeting',
+    description: 'Arranged setting',
   },
 ];
 
@@ -41,7 +26,7 @@ export default function OurStory() {
           className="text-center mb-20"
         >
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-6">
-            Біздің тарихымыз
+            Our Story
           </h2>
           <div className="w-20 h-px bg-sage-300 mx-auto" />
         </motion.div>

@@ -22,10 +22,10 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { label: 'Басты', href: '#hero' },
-    { label: 'Той күні', href: '#wedding-day' },
-    { label: 'Мәліметтер', href: '#event-details' },
-    { label: 'Қатысуды растау', href: '#rsvp' },
+    { label: 'Home', href: '#hero' },
+    { label: 'Wedding day', href: '#wedding-day' },
+    { label: 'Event details', href: '#event-details' },
+    { label: 'RSVP', href: '#rsvp' },
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function Navigation() {
           {/* Logo/Names */}
           <a href="#hero" className="flex items-center space-x-2">
             <span className="font-display text-2xl text-sage-800">
-              Dias & Aidana
+              Tejoraj & Sathvika
             </span>
           </a>
 
