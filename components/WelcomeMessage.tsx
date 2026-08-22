@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 const lines = [
 
   'Dear guests,',
-  'We sincerely invite you to join us in celebrating the joyous occasion of our ',
+  'We sincerely invite you to join us in celebrating the joyous wedding occasion of ',
   '',
   'Tejoraj & Sathvika',
   '',

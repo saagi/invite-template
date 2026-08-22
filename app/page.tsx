@@ -47,7 +47,7 @@ export default function Home() {
       <footer className="bg-sage-800 py-16 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-cream-200 text-lg mb-4 font-serif">
-            We await you at our wedding!
+            We look forward to seeing you!
           </p>
           <p className="text-cream-50 font-display text-4xl md:text-5xl mb-8">
             {groomName} & {brideName}

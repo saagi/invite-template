@@ -8,8 +8,8 @@ export default function EventDetails() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const venue = process.env.NEXT_PUBLIC_WEDDING_VENUE || 'Function hall';
-  const city = process.env.NEXT_PUBLIC_WEDDING_CITY || 'GodavariKhani';
+  const venue = 'Srinivasa S.S. Gardens';
+  const city = 'Medipally';
   const date = '30 August 2026';
 
   // Example Google Maps link
@@ -73,7 +73,7 @@ export default function EventDetails() {
               Wedding Hosts
             </p>
             <p className="text-sage-800 font-display text-3xl md:text-5xl mb-3">
-              Teja & Co
+              Nennela Family
             </p>
           </motion.div>
 
@@ -88,7 +88,7 @@ export default function EventDetails() {
             className="max-w-2xl mx-auto mb-12"
           >
             <p className="text-sage-700 font-serif text-lg leading-relaxed mb-8">
-              All events will take place at the same venue. Parking is available.
+              Parking is available.
             </p>
           </motion.div>
 
@@ -108,7 +108,7 @@ export default function EventDetails() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              Maps 2GIS
+              Maps Location
             </a>
           </motion.div>
         </motion.div>

@@ -84,7 +84,7 @@ export default function RsvpForm() {
               Рахмет сізге!
             </h3>
             <p className="text-sage-600 font-serif leading-relaxed mb-6">
-              Your response has been received. We await you at our wedding!
+              Your response has been received. We look forward to celebrate with you!
             </p>
             <motion.div
               initial={{ opacity: 0 }}

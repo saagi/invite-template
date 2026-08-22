@@ -20,7 +20,7 @@ export default function Envelope({ children, brideName, groomName }: EnvelopePro
 
   const startMusic = useCallback(() => {
     if (audioRef.current) return;
-    const audio = new Audio('/music/song.mp3');
+    const audio = new Audio('/music/music.mp3');
     audio.loop = true;
     audio.play().catch(() => {});
     audioRef.current = audio;

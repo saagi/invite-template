@@ -7,10 +7,10 @@ import Image from 'next/image';
 
 const schedule = [
   {
-    time: '16:30',
-    title: 'Guest Reception',
-    description: 'Reception after wedding',
-    image: 'https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80',
+    time: '11:07',
+    title: 'Sumuhurtham',
+    description: 'Thula Lagnam',
+    image: '/photos/teja-sathvika.jpeg',
     side: 'left',
   },
 ];
