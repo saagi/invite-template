@@ -10,9 +10,9 @@ import Navigation from '@/components/Navigation';
 export default function Home() {
   const brideName = 'Sathvika';
   const groomName = 'Tejoraj';
-  const weddingDate = '2026-08-30T10:35:00';
-  const city = 'Godavarikhani';
-  const venue = 'Function Hall';
+  const weddingDate = '2026-08-30T11:07:00';
+  const city = 'Ramagundam';
+  const venue = 'Srinivasa S.S Gardens, Medipally';
 
   return (
     <Envelope brideName={brideName} groomName={groomName}>

@@ -13,7 +13,7 @@ export default function EventDetails() {
   const date = '30 August 2026';
 
   // Example Google Maps link
-  const mapsLink = `https://go.2gis.com/Cv0gu`;
+  const mapsLink = 'https://www.google.com/maps/search/?api=1&query=Srinivasa+SS+Gardens+AC+Function+Hall+Ramagundam';
 
   return (
     <section id="event-details" className="py-24 px-4 bg-cream-50">

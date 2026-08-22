@@ -206,7 +206,7 @@ export default function Envelope({ children, brideName, groomName }: EnvelopePro
                     onClick={handleSkip}
                     className="text-sage-400 text-xs uppercase tracking-wider hover:text-sage-600 transition-colors font-sans"
                   >
-                    Location
+                    T&S
                   </button>
                 </motion.div>
               </motion.div>
