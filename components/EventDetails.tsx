@@ -26,7 +26,7 @@ export default function EventDetails() {
         >
           {/* Main heading */}
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-8">
-            Venue & Time
+            Date & Venue
           </h2>
 
           {/* Date */}
@@ -73,7 +73,7 @@ export default function EventDetails() {
               Wedding Hosts
             </p>
             <p className="text-sage-800 font-display text-3xl md:text-5xl mb-3">
-              Nennela Family
+              Nennela & Dandaveni Family
             </p>
           </motion.div>
 

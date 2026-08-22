@@ -170,7 +170,7 @@ export default function Envelope({ children, brideName, groomName }: EnvelopePro
                     }}
                   >
                     <div className="text-center p-4">
-                      <p className="text-sage-400 text-xs uppercase tracking-[0.2em] mb-2 font-sans">Шақыру</p>
+                      <p className="text-sage-400 text-xs uppercase tracking-[0.2em] mb-2 font-sans">Invitation</p>
                       <p className="font-script text-2xl text-sage-700">{groomName} & {brideName}</p>
                     </div>
                   </motion.div>
