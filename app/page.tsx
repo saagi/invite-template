@@ -8,11 +8,11 @@ import Envelope from '@/components/Envelope';
 import Navigation from '@/components/Navigation';
 
 export default function Home() {
-  const brideName = 'Aidana';
-  const groomName = 'Dias';
-  const weddingDate = '2026-06-06T18:00:00';
-  const city = 'Қызылорда қаласы';
-  const venue = 'Dariya ресторан';
+  const brideName = 'Sathvika';
+  const groomName = 'Tejoraj';
+  const weddingDate = '2026-08-30T10:35:00';
+  const city = 'Godavarikhani';
+  const venue = 'Function Hall';
 
   return (
     <Envelope brideName={brideName} groomName={groomName}>
