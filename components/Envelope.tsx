@@ -200,13 +200,13 @@ export default function Envelope({ children, brideName, groomName }: EnvelopePro
                   transition={{ delay: 1.5, duration: 0.3 }}
                 >
                   <p className="text-sage-600 text-sm font-sans mb-2">
-                    Шақыруды ашу үшін конвертті басыңыз
+                    Click the envelope to open the invitation
                   </p>
                   <button
                     onClick={handleSkip}
                     className="text-sage-400 text-xs uppercase tracking-wider hover:text-sage-600 transition-colors font-sans"
                   >
-                    Өткізу
+                    Location
                   </button>
                 </motion.div>
               </motion.div>

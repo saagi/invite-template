@@ -26,7 +26,7 @@ export default function EventDetails() {
         >
           {/* Main heading */}
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-8">
-            Орын және уақыт
+            Venue & Time
           </h2>
 
           {/* Date */}
@@ -37,7 +37,7 @@ export default function EventDetails() {
             className="mb-12"
           >
             <p className="text-sage-600 font-sans text-sm uppercase tracking-widest mb-2">
-              Күні
+              Date
             </p>
             <p className="text-sage-800 font-serif text-2xl md:text-3xl">
               {date}
@@ -52,7 +52,7 @@ export default function EventDetails() {
             className="mb-12"
           >
             <p className="text-sage-600 font-sans text-sm uppercase tracking-widest mb-2">
-              Орны
+              Venue
             </p>
             <p className="text-sage-800 font-display text-3xl md:text-5xl mb-3">
               {venue}
@@ -70,10 +70,10 @@ export default function EventDetails() {
             className="mb-12"
           >
             <p className="text-sage-600 font-sans text-sm uppercase tracking-widest mb-2">
-              Той иелері
+              Wedding Hosts
             </p>
             <p className="text-sage-800 font-display text-3xl md:text-5xl mb-3">
-              Бек & Жанар
+              Teja & Co
             </p>
           </motion.div>
 

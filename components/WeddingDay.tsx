@@ -36,7 +36,7 @@ export default function WeddingDay() {
           </div>
 
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-6">
-            Той күні
+            Wedding Day
           </h2>
           <p className="text-sage-600 font-serif text-lg max-w-2xl mx-auto leading-relaxed">
             Find out events

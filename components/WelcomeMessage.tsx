@@ -10,7 +10,6 @@ const lines = [
   '',
   'Tejoraj & Sathvika',
   '',
-  'Ақ отау тігіп, үлкен өмірге бірге',
   'as they begin their journey together and take their first steps into married life',
   'It would be our great honor to have you as our cherished guests at the wedding celebration!',
 ];

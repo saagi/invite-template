@@ -114,7 +114,7 @@ export default function RsvpForm() {
           className="text-center mb-12"
         >
           <h2 className="font-display text-5xl md:text-7xl text-sage-800 mb-6">
-            Қатысуды растау
+            RSVP
           </h2>
           <div className="w-20 h-px bg-sage-300 mx-auto mb-6" />
           <p className="text-sage-600 font-serif text-lg">
@@ -154,7 +154,7 @@ export default function RsvpForm() {
                 value={formData.name}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all font-serif"
-                placeholder="Аты-жөніңіз"
+                placeholder="Your name"
               />
             </div>
 
@@ -171,8 +171,8 @@ export default function RsvpForm() {
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all font-serif"
               >
-                <option value="yes">Иә, қатысамын!</option>
-                <option value="no">Кешіріңіз, қатыса алмаймын</option>
+                <option value="yes">Yes, Will come well before!</option>
+                <option value="no">Just on the wedding day</option>
               </select>
             </div>
 
