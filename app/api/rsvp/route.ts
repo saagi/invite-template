@@ -35,7 +35,14 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json();
-    const { name, attending, guests, dietary, message } = body;
+    const {
+            name,
+            attending,
+            transport_preference,
+            guests,
+            dietary,
+            message,
+          } = body;
 
     // Validation
     if (!name || typeof attending !== 'boolean') {
@@ -57,12 +64,13 @@ export async function POST(request: NextRequest) {
       .from('rsvps')
       .insert([
         {
-          name: name.trim(),
-          attending,
-          guests: attending ? guests : 0,
-          dietary: dietary?.trim() || null,
-          message: message?.trim() || null,
-        },
+        name: name.trim(),
+        attending,
+        transport_preference: transport_preference || null,
+        guests: attending ? guests : 0,
+        dietary: dietary?.trim() || null,
+        message: message?.trim() || null,
+      },
       ])
       .select();
 

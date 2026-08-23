@@ -9,6 +9,7 @@ export type RsvpSubmission = {
   id?: string;
   name: string;
   attending: boolean;
+  transport_preference?: 'Self' | 'need';
   guests: number;
   dietary?: string;
   message?: string;

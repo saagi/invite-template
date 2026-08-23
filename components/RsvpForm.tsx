@@ -10,6 +10,7 @@ export default function RsvpForm() {
   const [formData, setFormData] = useState({
     name: '',
     attending: 'yes',
+    transport_preference: 'Self',
     guests: 1,
   });
   const [honeypot, setHoneypot] = useState('');
@@ -35,10 +36,11 @@ export default function RsvpForm() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: formData.name,
-          attending: formData.attending === 'yes',
-          guests: parseInt(formData.guests.toString()),
-        }),
+        name: formData.name,
+        attending: formData.attending === 'yes',
+        transport_preference: formData.transport_preference,
+        guests: parseInt(formData.guests.toString()),
+      }),
       });
 
       const data = await response.json();
@@ -118,7 +120,7 @@ export default function RsvpForm() {
           </h2>
           <div className="w-20 h-px bg-sage-300 mx-auto mb-6" />
           <p className="text-sage-600 font-serif text-lg">
-            Please let us know whenever you are coming
+            Please let us know if you will be attending
           </p>
         </motion.div>
 
@@ -161,7 +163,7 @@ export default function RsvpForm() {
             {/* Attending */}
             <div>
               <label htmlFor="attending" className="block text-sage-800 font-medium mb-2 font-sans">
-                Transport Preference *
+                attending *
               </label>
               <select
                 id="attending"
@@ -171,9 +173,26 @@ export default function RsvpForm() {
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all font-serif"
               >
-                <option value="Own">Will come by own!</option>
-                <option value="Transport">Better if transport is arranged!</option>
-                <option value="Chill">Never know</option>
+                <option value="yes">Yes, Will attend</option>
+                <option value="no">Might not be possible</option>
+              </select>
+            </div>
+
+            {/* Transport Preference */}
+            <div>
+              <label htmlFor="transport_preference" className="block text-sage-800 font-medium mb-2 font-sans">
+                Transport Preference *
+              </label>
+              <select
+                id="transport_preference"
+                name="transport_preference"
+                required
+                value={formData.transport_preference}
+                onChange={handleChange}
+                className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all font-serif"
+              >
+                <option value="Self">Will come by own</option>
+                <option value="need">Better if transport is arranged</option>
               </select>
             </div>
 
@@ -181,7 +200,7 @@ export default function RsvpForm() {
             {formData.attending === 'yes' && (
               <div>
                 <label htmlFor="guests" className="block text-sage-800 font-medium mb-2 font-sans">
-                  guests *
+                  Number of guests *
                 </label>
                 <input
                   type="number"
@@ -189,7 +208,7 @@ export default function RsvpForm() {
                   name="guests"
                   required
                   min="1"
-                  max="10"
+                  max="15"
                   value={formData.guests}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all font-serif"
